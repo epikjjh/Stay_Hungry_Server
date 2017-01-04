@@ -15,7 +15,7 @@ SPIDER_MODULES = ['Scrapy.spiders']
 NEWSPIDER_MODULE = 'Scrapy.spiders'
 
 import sys
-sys.path.insert(0, 'C:\Users\Junhyung\Documents\HungryOsori-Server\crawlerAPI')
+sys.path.insert(0, 'C:\Users\Junhyung\Documents\Stay_Hungry_Server\crawlerAPI')
 
 import os
 os.environ['DJANGO_SETTINGS_MODULE'] = 'crawlerAPI.settings'
